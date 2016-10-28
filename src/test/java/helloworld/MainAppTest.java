@@ -12,7 +12,7 @@ public class MainAppTest {
     @Test
     public void main() throws Exception {
         MainApp.main(null);
-        Assert.assertEquals("done", 1, 1);
+        Assert.assertEquals("Test Pass!", 1, 1);
     }
 
 }
